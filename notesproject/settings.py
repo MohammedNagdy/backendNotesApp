@@ -101,7 +101,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:4200',
+    'https://pensive-tereshkova-9b00b1.netlify.app/',
 ]
 
 
