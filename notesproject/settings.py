@@ -101,7 +101,7 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://pensive-tereshkova-9b00b1.netlify.app/',
+    'https://pensive-tereshkova-9b00b1.netlify.app',
 ]
 
 
@@ -158,7 +158,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-# STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 
 # update database to heruko postgres
 db_from_env = dj_database_url.config()
